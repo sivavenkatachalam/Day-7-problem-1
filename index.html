@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todolist</title>
+    <style>
+           .one{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color:rgba(36,143,36);
+            height: 70vh;
+            width: 80vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 150px auto;
+           }
+           fieldset{
+            height: 50vh;
+            width: 50vh;
+            color: rgb(0, 0, 0);
+            background-color: rgb(255, 255, 255);
+            border: 300px;
+           }
+           button{
+            color: white;
+            padding: 10px 20px;
+            font-size: medium;
+            justify-content: center;
+            border: none;
+           }
+        </style>
+    </head>
+    <body>
+        <div class="one"> 
+        <fieldset>
+            <h1>My to-do list</h1>
+            <p style="color: gray;font-style: italic;">Double-click an item to mark it Complete</p>
+            <input type="text" placeholder="" style="padding: 10px 20px;">
+            <button style="background-color: rgb(0, 153, 255);padding: 8px 15px;">Add</button><br><br>
+            <ol>
+        <li>My</li><br><br>
+        <del style="color: darkgrey;"><li>to-do</li></del><br><br>
+        <li>list</li><br><br>
+        </ol>
+        <button style="background-color: rgb(0, 153, 255);text-align: left;">Clear Completed</button>
+        <button style="background-color: darkred;justify-content: left;">Empty List</button>
+        <button style="background-color: green;">Save List</button>
+    </fieldset>
+</div>
+</body>
+</html>
